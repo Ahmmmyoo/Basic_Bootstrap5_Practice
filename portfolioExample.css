@@ -1,0 +1,50 @@
+.body1 {
+  padding-top: 10vw;
+}
+
+.bb {
+  background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.7);
+}
+
+.bbb {
+  font-size: calc(0.5rem + 2vw);
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+.bbbb {
+  font-size: calc(0.7rem + 1.1vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.wwf {
+  filter: invert(100);
+
+  &.img {
+    width: calc(0.8rem + 1.1vw);
+    height: calc(0.8rem + 1.1vw);
+    object-fit: cover;
+  }
+}
+
+.wwd {
+  /* filter: invert(100); */
+
+  &.img {
+    width: calc(0.8rem + 1.1vw);
+    height: calc(0.8rem + 1.1vw);
+    object-fit: cover;
+  }
+}
+
+.wwd img, .wwf img {
+  width: calc(4rem + 4vw);
+}
+
+.form-floating {
+  min-width: 300px;
+}
