@@ -1,0 +1,35 @@
+body {
+  background-image: url(https://images.pexels.com/photos/1874636/pexels-photo-1874636.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Barlow";
+}
+
+.h1 {
+  font-size: calc(1rem + 2.3vw);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: calc(0.6rem + 0.5vw);
+  text-transform: uppercase;
+  padding: calc(0.1rem + 0.6vw);
+}
+
+.btn-primary {
+  background-image: linear-gradient(to right, #8c5dfe, #434bf9);
+  border-width: 0;
+}
+.btn-primary:hover {
+  background-image: linear-gradient(to right, #7f4afa, #303afe);
+}
+
+.ww75 {
+  width: 75vw;
+  padding: 2px;
+  background-image: linear-gradient(to right, #7f4afa, #303afe);
+  border-radius: 23px;
+  margin-bottom: 100px;
+}
